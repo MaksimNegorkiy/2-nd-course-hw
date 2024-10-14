@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -7,9 +12,127 @@ a {
 }
 
 .top {
+  position: absolute;
+  width: 1440px;
   height: 800px;
   background-image: url(../img/background.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
+}
+
+.star-top2 {
+  position: absolute;
+  left: 63px;
+  top: 94px;
+}
+
+.star-top3 {
+  position: absolute;
+  left: 156px;
+  top: 69px;
+}
+
+.star-top5 {
+  position: absolute;
+  left: 948px;
+  top: 538px;
+}
+
+.star-top4 {
+  position: absolute;
+  left: 1013px;
+  top: 568px;
+}
+
+.vector-group {
+  position: absolute;
+  width: 1074px;
+  height: 1130.46px;
+  left: 854px;
+  top: -333.46px;
+  
+}
+
+.title {
+  margin-left: 120px;
+  padding-top: 196px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.top__text {
+  margin-top: 24px;
+  margin-left: 120px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.button {
+  margin-top: 48px;
+  margin-left: 120px;
+  width: 247px;
+  height: 66px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  box-sizing: border-box;
+  border: 1px solid rgb(32, 32, 39);
+  border-radius: 60px;
+  background-color: rgb(32, 32, 39);
+  color: white;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #000000;
+  cursor: pointer;
+}
+
+.frame {
+  position: relative;
+  margin-top: 156px;
+  height: 90px;
+  background-color: #bcec30;
+}
+
+.frame-text {
+  display: flex;
+  justify-content: center;
+  padding-top: 27px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.text-1 {
+  padding-right: 138px;
+}
+
+.text-2 {
+  padding-right: 138px;
+}
+
+.text-3 {
+  padding-right: 138px;
+}
+
+.frame__star-1 {
+  position: absolute;
+  left: 185px;
+  top: 27px;
+}
+
+.frame__star-2 {
+  position: absolute;
+  left: 649px;
+  top: 27px;
+}
+
+.frame__star-3 {
+  position: absolute;
+  right: 195px;
+  top: 27px;
 }
