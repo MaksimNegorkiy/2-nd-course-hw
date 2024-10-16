@@ -15,10 +15,7 @@ a {
   position: absolute;
   width: 1440px;
   height: 800px;
-  background-image: url(../img/background.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: #E1FF8F;
   overflow: hidden;
 }
 
@@ -48,11 +45,8 @@ a {
 
 .vector-group {
   position: absolute;
-  width: 1074px;
-  height: 1130.46px;
   left: 854px;
   top: -333.46px;
-  
 }
 
 .title {
